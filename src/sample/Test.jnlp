@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://localhost:8080/" href="Test.jnlp">
+
+    <information>
+        <title>Gra 5,5,4</title>
+        <vendor>Michał Pasierbiewicz</vendor>
+        <homepage href="http://localhost:8080/" />
+        <description>Aplikacja pozwalająca na grę 5,5,4 wraz z innym graczem</description>
+    </information>
+
+    <security>
+        <all-permissions/>
+    </security>
+
+    <resources>
+        <j2se version="1.6+" />
+        <jar href="TestJnlp.jar" />
+    </resources>
+
+    <application-desc main-class="sample.Main" />
+</jnlp>
